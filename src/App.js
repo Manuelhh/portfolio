@@ -1,9 +1,14 @@
 import "./App.css";
+import Intro from "./components/Intro/Intro";
+import About from "./components/About/About";
+import ProductList from "./components/ProductList/ProductList";
 
 function App() {
   return (
     <div>
-      <h1>hello Manuel</h1>
+      <Intro />
+      <About />
+      <ProductList />
     </div>
   );
 }
