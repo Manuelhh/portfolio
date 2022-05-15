@@ -8,8 +8,8 @@ const Product = ({ img, link }) => {
         <div className={styles.productCircle}></div>
         <div className={styles.productCircle}></div>
       </div>
-      <a href={link} target="_blank" rel="noreferrer">
-        <img className={styles.productImage} src={img} alt="" />
+      <a href={link}>
+        <img className={styles.productImage} src={img} alt="Project img" />
       </a>
     </div>
   );
