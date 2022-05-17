@@ -2,14 +2,15 @@
   width: 30%;
   height: 40vh;
   margin: 20px 10px;
-  border: 2px solid rgb(243, 242, 242);
+  border: 2px solid lightgray;
   border-radius: 10px 10px 0px 0px;
   overflow: hidden;
+  flex-direction: column;
 }
 
 .productBrowser {
   height: 20px;
-  background-color: rgb(243, 242, 242);
+  background-color: darkgray;
   display: flex;
   align-items: center;
   position: sticky;
@@ -24,12 +25,28 @@
   margin: 3px;
 }
 
-.productImage {
-  width: 100%;
-
-  transition: all 5s ease;
+.text {
+  height: 50px;
+  background-color: rgb(243, 242, 242);
+  position: sticky;
+  z-index: 2;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.product:hover .productImage {
+.img {
+  width: 30px;
+}
+
+.productImage {
+  width: 100%;
+  transition: all 3s ease;
+}
+
+.productImage:hover {
   transform: translateY(-50%);
+  cursor: none;
 }

@@ -1,6 +1,8 @@
 import styles from "./Product.module.css";
+import GitHub from "../../img/github.jpeg";
+import AppImg from "../../img/app.png";
 
-const Product = ({ img, link }) => {
+const Product = ({ img, linkGit, linkApp }) => {
   return (
     <div className={styles.product}>
       <div className={styles.productBrowser}>
@@ -8,9 +10,16 @@ const Product = ({ img, link }) => {
         <div className={styles.productCircle}></div>
         <div className={styles.productCircle}></div>
       </div>
-      <a href={link}>
-        <img className={styles.productImage} src={img} alt="Project img" />
-      </a>
+      <div className={styles.text}>
+        <a href={linkGit}>
+          <img className={styles.img} src={GitHub} alt=""></img>
+        </a>
+        <a href={linkApp}>
+          <img className={styles.img} src={AppImg} alt="" />
+        </a>
+      </div>
+
+      <img className={styles.productImage} src={img} alt="Project img" />
     </div>
   );
 };
