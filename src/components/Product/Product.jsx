@@ -1,6 +1,6 @@
 import styles from "./Product.module.css";
-import GitHub from "../../img/github.jpeg";
-import AppImg from "../../img/app.png";
+import GitHub from "../../img/github.png";
+import AppImg from "../../img/app.jpg";
 
 const Product = ({ img, linkGit, linkApp }) => {
   return (
