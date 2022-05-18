@@ -2,7 +2,7 @@
   width: 30%;
   height: 40vh;
   margin: 20px 10px;
-  border: 2px solid lightgray;
+  border: 2px solid #59b256;
   border-radius: 10px 10px 0px 0px;
   overflow: hidden;
   flex-direction: column;
@@ -10,7 +10,7 @@
 
 .productBrowser {
   height: 20px;
-  background-color: darkgray;
+  background-color: #59b256;
   display: flex;
   align-items: center;
   position: sticky;
@@ -25,7 +25,7 @@
   margin: 3px;
 }
 
-.text {
+.myLinks {
   height: 40px;
   background-color: rgb(243, 242, 242);
   position: sticky;

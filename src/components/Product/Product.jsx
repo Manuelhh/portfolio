@@ -10,7 +10,7 @@ const Product = ({ img, linkGit, linkApp }) => {
         <div className={styles.productCircle}></div>
         <div className={styles.productCircle}></div>
       </div>
-      <div className={styles.text}>
+      <div className={styles.myLinks}>
         <a href={linkGit}>
           <img className={styles.img} src={GitHub} alt=""></img>
         </a>

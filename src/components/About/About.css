@@ -70,9 +70,15 @@
 
 .a-award-title {
   font-weight: bold;
-  color: #555;
+  color: #59b256;
   margin-bottom: 10px;
 }
 
 .a-award-desc {
+}
+
+@media screen and (max-width: 800px) {
+  .aboutContainer {
+    flex-direction: column;
+  }
 }
