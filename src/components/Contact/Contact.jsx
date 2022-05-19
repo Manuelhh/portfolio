@@ -58,7 +58,7 @@ const Contact = () => {
       <div className={styles.contactBG}> </div>
       <div className={styles.contactWrapper}>
         <div className={styles.contactLeft}>
-          <h1 className={styles.contactTittle}>Let's discuss your project.</h1>
+          <h1 className={styles.contactTitle}>Let's discuss your project.</h1>
           <div className={styles.contactInfo}>
             <div className={styles.contactInfoItem}>
               <img className={styles.contactIcon} src={Phone} alt="phone" />

@@ -1,5 +1,5 @@
 .contact {
-  height: 100vh;
+  height: 120vh;
   position: relative;
 }
 
@@ -11,6 +11,7 @@
 }
 
 .contactWrapper {
+  margin-top: 100px;
   padding: 50px;
   display: flex;
   /* height: 80%; */
@@ -23,9 +24,9 @@
   justify-content: space-evenly;
 }
 
-.contactTittle {
+.contactTitle {
   font-size: 60px;
-  width: 80%;
+  width: auto;
 }
 
 /* .contactInfo {
@@ -36,7 +37,7 @@
   align-items: center;
   margin: 50px 0px;
   font-weight: 300;
-  width: 30%;
+  width: auto;
 }
 
 .contactIcon {
@@ -55,19 +56,23 @@
 
 .contactDescription {
   font-weight: 200;
+  width: 75%;
+  border: 1px solid #59b256;
+  border-radius: 5px 5px 0px 0px;
+  padding: 10px;
 }
 
 .contactForm {
   margin-top: 20px;
   height: 500px;
-  width: 500px;
+  width: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
 
 .contactForm input {
-  width: 50%;
+  width: 95%;
   height: 50px;
   border: none;
   border-bottom: 1px solid black;
@@ -81,10 +86,12 @@
 }
 
 .contactForm textarea {
-  width: 100%;
+  width: 95%;
   margin: 10px 0px;
   font-size: 14px;
   padding-left: 10px;
+  border: none;
+  border-bottom: 1px solid black;
 }
 
 .contactForm textarea:focus {
@@ -98,10 +105,36 @@
   color: white;
   font-weight: 500;
   cursor: pointer;
+  width: 25%;
 }
 
 @media screen and (max-width: 800px) {
   .contactWrapper {
     flex-direction: column;
+    padding: 0px 50px;
+  }
+
+  .contactTitle {
+    font-size: 30px;
+  }
+
+  .contactInfoItem {
+    margin: 20px 0px;
+    width: 100%;
+  }
+
+  .contactDescription {
+    /* display: none; */
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .contactForm {
+    margin-top: 0px;
+  }
+
+  .contactRight {
+    align-items: flex-start;
   }
 }

@@ -1,6 +1,6 @@
 .product {
   width: 30%;
-  height: 40vh;
+  height: 35vh;
   margin: 20px 10px;
   border: 2px solid #59b256;
   border-radius: 10px 10px 0px 0px;
@@ -50,4 +50,23 @@
 .productImage:hover {
   transform: translateY(-50%);
   cursor: none;
+}
+
+@media screen and (max-width: 920px) {
+  .product {
+    width: 40%;
+    height: 20vh;
+  }
+
+  /* .productBrowser {
+    display: none;
+  } */
+
+  .myLinks {
+    height: 20px;
+  }
+
+  .img {
+    width: 20px;
+  }
 }

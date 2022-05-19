@@ -84,7 +84,7 @@
   flex: 1;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 920px) {
   .introContainer {
     flex-direction: column;
   }
@@ -104,5 +104,9 @@
   .introImage {
     object-position: 80% 20%;
     position: absolute;
+  }
+
+  .introTitleItem {
+    font-size: 20px;
   }
 }

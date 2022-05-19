@@ -33,6 +33,11 @@
   height: 100%;
   object-fit: cover;
   filter: grayscale(100%);
+  transition: 3s;
+}
+
+.aboutImage:hover {
+  filter: grayscale(0%);
 }
 
 .aboutRightContainer {
@@ -44,11 +49,13 @@
 }
 
 .aboutSub {
-  margin: 20px 0px;
+  margin: 20px 20px;
 }
 
 .aboutDesc {
   font-weight: 300;
+  margin-right: 50px;
+  text-align: end;
 }
 
 .aboutAward {
@@ -64,21 +71,42 @@
   border-radius: 20px;
 }
 
-.a-award-texts {
+.aAwardTexts {
   width: 70%;
 }
 
-.a-award-title {
+.aAwardTitle {
   font-weight: bold;
   color: #59b256;
   margin-bottom: 10px;
 }
 
-.a-award-desc {
+.aAwardDesc {
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 920px) {
   .aboutContainer {
     flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  .aboutLeftContainer {
+    width: 100%;
+  }
+
+  .aboutAward {
+    margin-bottom: 50px;
+  }
+
+  .aboutCard {
+    height: 30vh;
+  }
+
+  .aboutImage {
+    object-position: 80% 20%;
+  }
+  .aboutRightContainer {
+    padding: 20px;
   }
 }
