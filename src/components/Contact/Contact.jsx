@@ -5,12 +5,13 @@ import Address from "../../img/address.png";
 import Github from "../../img/github2.webp";
 import In from "../../img/in.png";
 import Cv from "../../img/cv.png";
-import { useContext, useRef } from "react";
+import { useContext, useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import { ThemeContext } from "../../context";
 
 const Contact = () => {
   const useFormRef = useRef(null);
+  const [sent, setSent] = useState(false);
 
   const userNameRef = useRef(null);
   const userSubjectRef = useRef(null);
@@ -28,7 +29,6 @@ const Contact = () => {
       userEmailRef.current.value === "" ||
       userMessageRef.current.value === ""
     ) {
-      alert("something is missing");
       return;
     }
     emailjs
@@ -41,6 +41,7 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
+          setSent(true);
         },
         (error) => {
           console.log(error.text);
@@ -138,6 +139,13 @@ const Contact = () => {
               style={{ backgroundColor: darkMode ? "#333" : "white" }}
             ></textarea>
             <button onClick={getUserData}>Submit</button>
+            {sent ? (
+              <p className={styles.thanksMessage}>
+                Thank you. You will hear from me shortly
+              </p>
+            ) : (
+              ""
+            )}
           </form>
         </div>
       </div>
