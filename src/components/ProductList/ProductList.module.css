@@ -39,3 +39,9 @@
     font-size: 60px;
   }
 }
+
+@media screen and (max-width: 375px) {
+  .pl {
+    margin-top: 250px;
+  }
+}

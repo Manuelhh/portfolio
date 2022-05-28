@@ -13,11 +13,12 @@ const Skills = () => {
               <h2>Tools</h2>
             </div>
             <div className={styles.columnSkills}>
-              <div>uno</div>
-              <div>dos</div>
-              <div>tres</div>
-              <div>cuatro</div>
-              <div>cinco</div>
+              <div>npm</div>
+              <div>Terminal</div>
+              <div>git, gitHub</div>
+              <div>Heroku</div>
+              <div>Netlify</div>
+              <div>MongoDB</div>
             </div>
           </div>
           <div className={styles.skillsColumn}>
@@ -25,11 +26,9 @@ const Skills = () => {
               <h2>Languages</h2>
             </div>
             <div className={styles.columnSkills}>
-              <div>uno</div>
-              <div>dos</div>
-              <div>tres</div>
-              <div>cuatro</div>
-              <div>cinco</div>
+              <div>HTML</div>
+              <div>CSS</div>
+              <div>JS</div>
             </div>
           </div>
           <div className={styles.skillsColumn}>
@@ -37,11 +36,9 @@ const Skills = () => {
               <h2>Frameworks</h2>
             </div>
             <div className={styles.columnSkills}>
-              <div>uno</div>
-              <div>dos</div>
-              <div>tres</div>
-              <div>cuatro</div>
-              <div>cinco</div>
+              <div>Node JS</div>
+              <div>Express</div>
+              <div>React</div>
             </div>
           </div>
           <div className={styles.skillsColumn}>
@@ -49,11 +46,10 @@ const Skills = () => {
               <h2>Knowledge</h2>
             </div>
             <div className={styles.columnSkills}>
-              <div>uno</div>
-              <div>dos</div>
-              <div>tres</div>
-              <div>cuatro</div>
-              <div>cinco</div>
+              <div>MERN</div>
+              <div>Public API</div>
+              <div>Hosting</div>
+              <div>NoSQL</div>
             </div>
           </div>
         </div>

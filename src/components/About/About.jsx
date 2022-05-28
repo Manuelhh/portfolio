@@ -30,8 +30,7 @@ const About = () => {
               Computer Software Engineering
             </h4>
             <p className={styles.aAwardDesc}>
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit
-              and fugit.
+              Nemo enim ipsam voluptatem quia voluptas.
             </p>
           </div>
         </div>
