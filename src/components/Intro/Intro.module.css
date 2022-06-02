@@ -12,7 +12,7 @@
 
 .introLeftWrapper {
   padding: 50px;
-  height: 50%;
+  height: 60%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -76,7 +76,8 @@
 }
 
 .introDescription {
-  text-align: center;
+  text-align: justify;
+  font-size: smaller;
 }
 
 .introRightContainer {
@@ -98,7 +99,8 @@
   }
 
   .introDescription {
-    margin-top: 20px;
+    margin: 20px;
+    text-align: center;
   }
 
   .introImage {

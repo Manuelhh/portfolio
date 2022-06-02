@@ -14,24 +14,20 @@ const About = () => {
       <div className={styles.aboutRightContainer}>
         <h1 className={styles.aboutTitle}>About Me</h1>
         <p className={styles.aboutSub}>
-          It is a long established fact that a reader will be distracted by the
-          readable content.
+          I arrived in Canada with two things: fluent English and a chef’s
+          diploma.
         </p>
         <p className={styles.aboutDesc}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+          What I soon learned was that, while I still loved to cook, my passion
+          was not in the kitchen. A new country needed a new opportunity, so I
+          decided to immerse myself in the world of programming.
         </p>
         <div className={styles.aboutAward}>
           <img src={Award} alt="" className={styles.aboutAwardImg} />
           <div className={styles.aAwardTexts}>
-            <h4 className={styles.aAwardTitle}>
-              Computer Software Engineering
-            </h4>
-            <p className={styles.aAwardDesc}>
-              Nemo enim ipsam voluptatem quia voluptas.
-            </p>
+            <h4 className={styles.aAwardTitle}>General Assembly</h4>
+            <p className={styles.aAwardDesc}>Computer Software Engineering</p>
+            <p className={styles.aAwardDesc2}>June 2021 - December 2021</p>
           </div>
         </div>
       </div>

@@ -8,10 +8,7 @@ const ProductList = () => {
       <div className={styles.plTexts}>
         <h1 className={styles.plTitle}>Create & Inspire</h1>
         <p className={styles.plDesc}>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, est
-          ducimus dolorem animi laudantium magni ratione obcaecati minus
-          suscipit, incidunt ipsa ea provident. Eveniet tenetur, quidem
-          praesentium atque corrupti unde.
+          Below I’ve included a few samples of my recent projects.
         </p>
       </div>
       <div className={styles.plList}>

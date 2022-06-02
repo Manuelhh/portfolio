@@ -85,6 +85,12 @@
   margin-right: 30px;
 }
 
+.aAwardDesc2 {
+  margin-right: 30px;
+  font-weight: 100;
+  font-size: 15px;
+}
+
 @media screen and (max-width: 920px) {
   .aboutContainer {
     flex-direction: column;
@@ -109,5 +115,8 @@
   }
   .aboutRightContainer {
     padding: 20px;
+  }
+  .aboutDesc {
+    text-align: center;
   }
 }

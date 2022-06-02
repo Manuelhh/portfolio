@@ -115,6 +115,9 @@
 }
 
 @media screen and (max-width: 800px) {
+  .contactBG {
+    height: 130%;
+  }
   .contactWrapper {
     flex-direction: column;
     padding: 0px 50px;
