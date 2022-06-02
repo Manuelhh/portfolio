@@ -32,7 +32,7 @@ const Intro = () => {
           height="75"
           viewBox="0 0 75 75"
           fill="none"
-          stroke="black"
+          stroke="#59b256"
           className={styles.introScroll}
           xmlns="http://www.w3.org/2000/svg"
         >
