@@ -19,10 +19,10 @@ const Intro = () => {
           </div>
           <p className={styles.introDescription}>
             I am passionate about programming and I have extensive knowledge of
-            front-end techniques—and a flair for visual design. When I’m working
-            on a project, I love structure, order and spending time with details
-            for peak optimization. I’m especially in my element when I’m coming
-            up with original solutions while collaborating with creative,
+            front-end techniques— and a flair for visual design. When I’m
+            working on a project, I love structure, order and spending time with
+            details for peak optimization. I’m especially in my element when I’m
+            coming up with original solutions while collaborating with creative,
             talented and inspiring people.
           </p>
         </div>
