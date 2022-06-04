@@ -19,7 +19,7 @@ function App() {
       style={{
         backgroundColor: darkMode ? "#222" : "white",
         color: darkMode ? "white" : "black",
-        height: "627vh",
+        height: "auto",
       }}
     >
       <Toggle />
