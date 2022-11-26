@@ -71,8 +71,6 @@ const Contact = () => {
               mangud.hinojosa@gmail.com
             </div>
 
-            {/*  */}
-
             <div className={styles.contactInfoItem}>
               <a href="https://github.com/Manuelhh">
                 <img className={styles.contactIcon} src={Github} alt="github" />

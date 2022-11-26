@@ -19,6 +19,7 @@ const Skills = () => {
               <div>Heroku</div>
               <div>Netlify</div>
               <div>MongoDB</div>
+              <div>Mongoose</div>
             </div>
           </div>
           <div className={styles.skillsColumn}>
