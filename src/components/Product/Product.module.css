@@ -2,71 +2,126 @@
   width: 30%;
   height: 35vh;
   margin: 20px 10px;
-  border: darkgray 2px solid;
-  border-radius: 10px 10px 0px 0px;
+
   overflow: hidden;
+  display: flex;
   flex-direction: column;
-}
-
-.productBrowser {
-  height: 20px;
-  background-color: darkgray;
-  display: flex;
-  align-items: center;
-  position: sticky;
-  z-index: 2;
-}
-
-.productCircle {
-  width: 6px;
-  height: 6px;
-  background-color: white;
-  border-radius: 50%;
-  margin: 3px;
-}
-
-.myLinks {
-  height: 40px;
-  background-color: rgb(243, 242, 242);
-  position: sticky;
-  z-index: 2;
-  border: 1px solid white;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
   align-items: center;
 }
 
-.img {
-  width: 30px;
-  filter: grayscale(100%);
-}
-
-.productImage {
+.imgContainer {
+  height: 70%;
   width: 100%;
-  transition: all 5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.productImage:hover {
-  transform: translateY(-50%);
+.projectImage {
+  height: 80%;
+  width: 80%;
+  object-fit: cover;
+  opacity: 0.7;
+  border-radius: 1rem;
+}
+
+.descContainer {
+  height: 30%;
+  width: 100%;
+  display: flex;
+}
+
+.projectImage:hover {
   cursor: none;
+  opacity: 1;
+}
+
+.projectDescContainer {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #59b256;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.projectLinksContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.projectLinksContainer div {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 1px solid #59b256;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projectLinksContainer div a {
+  font-size: 0.7rem;
+  color: #59b256;
+  text-decoration: none;
+}
+
+.projectLinksContainer div:hover {
+  background-color: #59b256;
+  transition: 0.3s;
+}
+
+.projectLinksContainer div a:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+.projectTitle {
+  font-size: 0.7rem;
+  text-decoration: underline;
+}
+
+.projectDesdcription {
+  font-size: 0.6rem;
+}
+
+.ProjectTechs {
+  height: 35%;
+  width: 90%;
+  font-size: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  height: min-content;
 }
 
 @media screen and (max-width: 920px) {
   .product {
     width: 40%;
-    height: 20vh;
+    height: 30vh;
   }
 
-  /* .productBrowser {
-    display: none;
-  } */
-
-  .myLinks {
-    height: 20px;
+  .projectLinksContainer div {
+    width: 1.35rem;
+    height: 1.35rem;
   }
 
-  .img {
-    width: 20px;
+  .projectLinksContainer div a {
+    font-size: 0.55rem;
+  }
+
+  .projectTitle {
+    font-size: 0.6rem;
+  }
+
+  .projectDesdcription {
+    font-size: 0.5rem;
+  }
+
+  .ProjectTechs {
+    font-size: 0.5rem;
   }
 }

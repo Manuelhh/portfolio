@@ -1,34 +1,37 @@
 import styles from "./About.module.css";
-import AboutMe from "../../img/about.jpg";
+import AboutMe from "../../img/about.jpeg";
 import Award from "../../img/award.png";
 
 const About = () => {
   return (
     <div className={styles.aboutContainer}>
       <div className={styles.aboutLeftContainer}>
-        <div className={(styles.aboutCard, styles.bg)}></div>
-        <div className={styles.aboutCard}>
-          <img className={styles.aboutImage} src={AboutMe} alt="" />
+        <div className={styles.aboutTextContainer}>
+          <div className={styles.aboutTextTitle}>
+            General Assembly Software Engineer grad.
+          </div>
+          <div className={styles.aboutTextScript}>
+            I am passionate about programming and I have extensive knowledge of
+            front-end techniques and a flair for visual design. When I’m working
+            on a project, I love structure, order and spending time with details
+            for peak optimization. I’m especially in my element when coming up
+            with original solutions while collaborating with creative, talented
+            and inspiring people.
+            <br />
+            <br />I worked in the culinary industry for over a decade. My formal
+            education as a chef and my professional experience built my work
+            ethics. I seek perfection and thrive on feedback. I consider clear
+            and honest communication a fundamental key when collaborating.
+          </div>
         </div>
       </div>
       <div className={styles.aboutRightContainer}>
-        <h1 className={styles.aboutTitle}>About Me</h1>
-        <p className={styles.aboutSub}>
-          I arrived in Canada with two things: fluent English and a chef’s
-          diploma.
-        </p>
-        <p className={styles.aboutDesc}>
-          What I soon learned was that, while I still loved to cook, my passion
-          was not in the kitchen. A new country needed a new opportunity, so I
-          decided to immerse myself in the world of programming.
-        </p>
-        <div className={styles.aboutAward}>
-          <img src={Award} alt="" className={styles.aboutAwardImg} />
-          <div className={styles.aAwardTexts}>
-            <h4 className={styles.aAwardTitle}>General Assembly</h4>
-            <p className={styles.aAwardDesc}>Computer Software Engineering</p>
-            <p className={styles.aAwardDesc2}>June 2021 - December 2021</p>
-          </div>
+        <div className={styles.aboutImageContainer}>
+          <img
+            src={AboutMe}
+            alt="About me image"
+            className={styles.aboutImage}
+          />
         </div>
       </div>
     </div>

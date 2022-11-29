@@ -1,7 +1,7 @@
 .aboutContainer {
   height: 100vh;
+  width: 100%;
   display: flex;
-  align-items: center;
 }
 
 .aboutLeftContainer {
@@ -9,115 +9,76 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
-  height: 100%;
 }
 
-.aboutCard.bg {
-  position: absolute;
-  top: 50px;
-  left: 50px;
-  background-color: #333;
+.aboutTextContainer {
+  height: 45vh;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
 
-.aboutCard {
-  width: 60%;
-  height: 70vh;
-  border-radius: 30px;
-  position: relative;
+.aboutTextTitle {
+  font-size: 2rem;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.aboutTextScript {
+  font-size: 1rem;
+  text-align: justify;
   overflow: hidden;
+  overflow-y: scroll;
+  font-weight: 200;
+  color: #59b256;
+}
+
+.aboutRightContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutImageContainer {
+  height: 45vh;
+  width: 75%;
 }
 
 .aboutImage {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  filter: grayscale(100%);
-  transition: 3s;
+  opacity: 0.8;
 }
 
 .aboutImage:hover {
-  filter: grayscale(0%);
-}
-
-.aboutRightContainer {
-  flex: 1;
-}
-
-.aboutTitle {
-  font-weight: 400;
-}
-
-.aboutSub {
-  margin: 20px 20px;
-}
-
-.aboutDesc {
-  font-weight: 300;
-  margin-right: 50px;
-  text-align: end;
-}
-
-.aboutAward {
-  margin-top: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.aboutAwardImg {
-  width: 120px;
-  height: 120px;
-  border-radius: 20px;
-}
-
-.aAwardTexts {
-  width: 70%;
-}
-
-.aAwardTitle {
-  font-weight: bold;
-  color: #59b256;
-  margin-bottom: 10px;
-}
-
-.aAwardDesc {
-  margin-right: 30px;
-}
-
-.aAwardDesc2 {
-  margin-right: 30px;
-  font-weight: 100;
-  font-size: 15px;
+  opacity: 1;
+  transition: 0.5s;
+  cursor: none;
 }
 
 @media screen and (max-width: 920px) {
   .aboutContainer {
     flex-direction: column;
-    text-align: center;
-    margin-top: 50px;
   }
 
-  .aboutLeftContainer {
-    width: 100%;
+  .aboutTextContainer {
+    width: 60%;
+    height: 55vh;
   }
 
-  .aboutAward {
-    margin-bottom: 50px;
+  .aboutTextTitle {
+    font-size: 1.25rem;
   }
 
-  .aboutCard {
-    height: 30vh;
+  .aboutTextScript {
+    font-size: 0.9rem;
   }
 
-  .aboutImage {
-    object-position: 80% 20%;
-  }
-  .aboutRightContainer {
-    padding: 20px;
-  }
-  .aboutDesc {
-    text-align: right;
-    margin-right: 0px;
+  .aboutImageContainer {
+    height: 35vh;
   }
 }

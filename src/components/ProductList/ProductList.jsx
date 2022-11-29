@@ -6,11 +6,9 @@ const ProductList = () => {
   return (
     <div className={styles.pl}>
       <div className={styles.plTexts}>
-        <h1 className={styles.plTitle}>My Projects</h1>
-        <p className={styles.plDesc}>
-          Below I’ve included a few samples of my recent work.
-        </p>
+        <h1 className={styles.plTitle}> Projects</h1>
       </div>
+
       <div className={styles.plList}>
         {products.map((item) => (
           <Product
@@ -18,6 +16,9 @@ const ProductList = () => {
             img={item.img}
             linkGit={item.linkGit}
             linkApp={item.linkApp}
+            title={item.title}
+            desc={item.desc}
+            techs={item.techs}
           />
         ))}
       </div>

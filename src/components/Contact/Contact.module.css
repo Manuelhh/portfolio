@@ -1,20 +1,12 @@
 .contact {
-  height: 120vh;
-  position: relative;
-}
-
-.contactBG {
-  width: 20px;
-  height: 100%;
-  background-color: #59b256;
-  position: absolute;
+  height: 110vh;
+  width: 100%;
 }
 
 .contactWrapper {
-  margin-top: 100px;
-  padding: 50px;
+  height: 100%;
+  width: 100%;
   display: flex;
-  /* height: 80%; */
 }
 
 .contactLeft {
@@ -22,22 +14,21 @@
   flex: 1;
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .contactTitle {
-  font-size: 60px;
+  font-size: 3.5rem;
   width: auto;
+  text-align: center;
 }
 
-/* .contactInfo {
-} */
-
 .contactInfoItem {
+  max-width: fit-content;
   display: flex;
   align-items: center;
   margin: 50px 0px;
   font-weight: 300;
-  width: auto;
 }
 
 .contactIcon {
@@ -75,10 +66,12 @@
   width: 95%;
   height: 50px;
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
   margin: 10px 0px;
   font-size: 14px;
   padding-left: 10px;
+  background-color: #222;
+  color: #59b256;
 }
 
 .contactForm input:focus {
@@ -86,12 +79,14 @@
 }
 
 .contactForm textarea {
+  background-color: #222;
   width: 95%;
   margin: 10px 0px;
   font-size: 14px;
   padding-left: 10px;
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid white;
+  color: #59b256;
 }
 
 .contactForm textarea:focus {
@@ -106,49 +101,35 @@
   font-weight: 500;
   cursor: pointer;
   width: 25%;
-  /* margin-top: 200px; */
 }
 
 .thanksMessage {
-  color: black;
+  color: white;
   font-weight: 100;
   margin-top: 10px;
 }
 
 @media screen and (max-width: 800px) {
   .contact {
-    height: 125vh;
+    height: fit-content;
   }
 
-  .contactBG {
-    height: 100%;
-  }
   .contactWrapper {
     flex-direction: column;
-    padding: 0px 50px;
   }
 
   .contactTitle {
-    font-size: 30px;
+    font-size: 1.5rem;
   }
 
   .contactInfoItem {
     margin: 20px 0px;
-    width: 100%;
+    font-size: 0.8rem;
   }
 
   .contactDescription {
-    /* display: none; */
-
     margin-top: 25px;
     margin-bottom: 25px;
-  }
-
-  .contactForm {
-    margin-top: 0px;
-  }
-
-  .contactRight {
-    align-items: flex-start;
+    font-size: 0.8rem;
   }
 }
