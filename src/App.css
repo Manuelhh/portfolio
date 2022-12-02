@@ -1,4 +1,11 @@
-div {
-  /* background-color: aqua; */
-  /* height: fit-content; */
+html::-webkit-scrollbar {
+  width: 0.3vw;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #59b256;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: gray;
 }

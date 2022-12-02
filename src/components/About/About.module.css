@@ -27,12 +27,26 @@
 }
 
 .aboutTextScript {
-  font-size: 1rem;
+  height: auto;
+  font-size: 0.9rem;
   text-align: justify;
   overflow: hidden;
   overflow-y: scroll;
-  font-weight: 200;
+  font-weight: 100;
   color: #59b256;
+  padding: 1rem;
+}
+
+.aboutTextScript::-webkit-scrollbar {
+  width: 0.3vw;
+}
+
+.aboutTextScript::-webkit-scrollbar-thumb {
+  background-color: #59b256;
+}
+
+.aboutTextScript::-webkit-scrollbar-track {
+  background-color: transparent;
 }
 
 .aboutRightContainer {
@@ -75,7 +89,7 @@
   }
 
   .aboutTextScript {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 
   .aboutImageContainer {

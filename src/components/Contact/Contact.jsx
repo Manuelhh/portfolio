@@ -74,7 +74,7 @@ const Contact = () => {
             </div>
 
             <div className={styles.contactInfoItem}>
-              <a href="https://startling-arithmetic-8da5e9.netlify.app">
+              <a href="https://luminous-mochi-d0a7bb.netlify.app">
                 <img className={styles.contactIcon} src={Cv} alt="cv" />
               </a>
               CV

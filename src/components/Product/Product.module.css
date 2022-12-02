@@ -2,7 +2,6 @@
   width: 30%;
   height: 35vh;
   margin: 20px 10px;
-
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -44,6 +43,18 @@
   color: #59b256;
   overflow: hidden;
   overflow-y: scroll;
+}
+
+.projectDescContainer::-webkit-scrollbar {
+  width: 0.3vw;
+}
+
+.projectDescContainer::-webkit-scrollbar-thumb {
+  background-color: #59b256;
+}
+
+.projectDescContainer::-webkit-scrollbar-track {
+  background-color: transparent;
 }
 
 .projectLinksContainer {

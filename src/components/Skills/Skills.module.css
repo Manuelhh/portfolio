@@ -33,12 +33,12 @@
   font-size: 1.5rem;
 }
 
-@media screen and (max-width: 624px) {
+@media screen and (max-width: 920px) {
   .skillsTitle {
     font-size: 3rem;
   }
 
   .SkillsList {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
