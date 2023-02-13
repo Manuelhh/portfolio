@@ -154,4 +154,21 @@ export const products = [
     linkGit: "https://github.com/Manuelhh/timer-app",
     linkApp: "https://manuelhh.github.io/timer-app/",
   },
+  {
+    id: 11,
+    title: "Maze",
+    desc: "Maze game",
+    techs: [
+      "Matter-JS ",
+      "HTML ",
+      "CSS ",
+      "JS ",
+      "Netlify ",
+      "Git ",
+      "Github ",
+    ],
+    img: "https://res.cloudinary.com/mangud/image/upload/v1676314224/manuel/Screen_Shot_2023-02-13_at_1.49.11_PM_id6kqw.png",
+    linkGit: "https://github.com/Manuelhh/maze",
+    linkApp: "https://dynamic-otter-6969a8.netlify.app",
+  },
 ];

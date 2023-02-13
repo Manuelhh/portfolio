@@ -54,6 +54,8 @@
   color: #59b256;
   display: flex;
   align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .introScroll {

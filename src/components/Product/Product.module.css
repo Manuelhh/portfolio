@@ -46,7 +46,7 @@
 }
 
 .projectDescContainer::-webkit-scrollbar {
-  width: 0.2vw;
+  width: 0.1vw;
 }
 
 .projectDescContainer::-webkit-scrollbar-thumb {

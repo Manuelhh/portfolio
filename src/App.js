@@ -22,7 +22,7 @@ function App() {
         height: "auto",
       }}
     >
-      <Toggle />
+      {/* <Toggle /> */}
       <Intro />
       <About />
       <ProductList />
