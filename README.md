@@ -1,4 +1,1 @@
-# Portfoio readme file
-
-
-## My portfolio can be visited here: https://manuelhh.com
+## My portfolio website can be visited here: https://manuelhh.com
