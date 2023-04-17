@@ -1,5 +1,5 @@
 .contact {
-  height: fit-content;
+  min-height: 100vh;
   width: 100%;
 }
 
@@ -95,6 +95,7 @@
 
 .contactForm button {
   border: none;
+  border-radius: 1rem;
   padding: 15px;
   background-color: #59b256;
   color: white;
@@ -103,8 +104,14 @@
   width: 25%;
 }
 
+.contactForm button:hover {
+  transition: 0.3s;
+  background-color: white;
+  color: #59b256;
+}
+
 .thanksMessage {
-  color: white;
+  color: #59b256;
   font-weight: 100;
   margin-top: 10px;
 }

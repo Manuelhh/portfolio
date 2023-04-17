@@ -22,7 +22,7 @@
   width: 55%;
   height: 45%;
   color: #59b256;
-  font-weight: 100;
+  font-weight: 200;
   border: 1px solid #59b256;
   border-radius: 1rem;
   display: flex;
@@ -39,6 +39,6 @@
   }
 
   .SkillsList {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
